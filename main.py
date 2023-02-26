@@ -3,8 +3,8 @@ import openai
 import discord
 from discord.ext import commands
 
-openai.api_key = str("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")
-bot_token = str('MTA3ODc3MzEyNjM2OTkwMjcwNA.GdMG-h._JQWiqkYFoEimhNs_HCWUnJh-jGadrcxCZctqY')
+openai.api_key = str(###)
+bot_token = str(###)
 intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix='!', intents=intents)
